@@ -1,0 +1,154 @@
+/* .vitepress/theme/custom.css */
+/**
+ * Cores do tema Governo.app
+ * Ciano (App): #00A7E1 - Cor vibrante para elementos de destaque
+ * Preto Escuro (Governo): #1A2526 - Cor séria para textos principais
+ * Branco Cremoso (fundo): #F5F5F2 - Cor de fundo para contraste
+ */
+
+/* Definição de cores base para ambos os modos */
+:root {
+  /* Cores base do Governo.app */
+  --vp-c-ciano: #00A7E1;      /* Ciano (App) */
+  --vp-c-preto: #1A2526;      /* Preto Escuro (Governo) */
+  --vp-c-branco: #F5F5F2;     /* Branco Cremoso (fundo) */
+  
+  /* Variações de tonalidade para o ciano */
+  --vp-c-ciano-light: #33b7e5;
+  --vp-c-ciano-lighter: #66c7ea;
+  --vp-c-ciano-dark: #0086b3;
+  --vp-c-ciano-darker: #006a8f;
+}
+
+/* Definição para tema claro (padrão) */
+:root {
+  /* Cores de marca */
+  --vp-c-brand: var(--vp-c-ciano);
+  --vp-c-brand-light: var(--vp-c-ciano-light);
+  --vp-c-brand-lighter: var(--vp-c-ciano-lighter);
+  --vp-c-brand-dark: var(--vp-c-ciano-dark);
+  --vp-c-brand-darker: var(--vp-c-ciano-darker);
+  
+  /* Cores de fundo */
+  --vp-c-bg: var(--vp-c-branco);
+  --vp-c-bg-soft: #eaeae8;
+  --vp-c-bg-mute: #dcdcda;
+  --vp-c-bg-alt: #e9e9e6;
+  
+  /* Cores de texto */
+  --vp-c-text-1: var(--vp-c-preto);
+  --vp-c-text-2: #2c3738;
+  --vp-c-text-3: #3e4a4c;
+  
+  /* Botões */
+  --vp-button-brand-bg: var(--vp-c-ciano);
+  --vp-button-brand-border: var(--vp-c-ciano-dark);
+  --vp-button-brand-text: white;
+  --vp-button-brand-hover-bg: var(--vp-c-ciano-dark);
+  --vp-button-brand-hover-border: var(--vp-c-ciano-darker);
+  --vp-button-brand-hover-text: white;
+  --vp-button-brand-active-bg: var(--vp-c-ciano-darker);
+  --vp-button-brand-active-border: var(--vp-c-ciano-darker);
+  --vp-button-brand-active-text: white;
+  
+  /* Links */
+  --vp-c-brand-1: var(--vp-c-ciano);
+  --vp-c-brand-2: var(--vp-c-ciano-dark);
+  --vp-c-brand-3: var(--vp-c-ciano-darker);
+}
+
+/* Definição para tema escuro */
+.dark {
+  /* Cores de marca (mesmas do tema claro) */
+  --vp-c-brand: var(--vp-c-ciano);
+  --vp-c-brand-light: var(--vp-c-ciano-light);
+  --vp-c-brand-lighter: var(--vp-c-ciano-lighter);
+  --vp-c-brand-dark: var(--vp-c-ciano-dark);
+  --vp-c-brand-darker: var(--vp-c-ciano-darker);
+  
+  /* Cores de fundo para o modo escuro */
+  --vp-c-bg: #1a1a1a;
+  --vp-c-bg-soft: #242424;
+  --vp-c-bg-mute: #2f2f2f;
+  --vp-c-bg-alt: #262626;
+  
+  /* Cores de texto para o modo escuro */
+  --vp-c-text-1: #f0f0f0;
+  --vp-c-text-2: #cccccc;
+  --vp-c-text-3: #999999;
+  
+  /* Botões para o modo escuro */
+  --vp-button-brand-bg: var(--vp-c-ciano);
+  --vp-button-brand-border: var(--vp-c-ciano-dark);
+  --vp-button-brand-text: white;
+  --vp-button-brand-hover-bg: var(--vp-c-ciano-light);
+  --vp-button-brand-hover-border: var(--vp-c-ciano);
+  --vp-button-brand-hover-text: var(--vp-c-preto);
+  --vp-button-brand-active-bg: var(--vp-c-ciano-lighter);
+  --vp-button-brand-active-border: var(--vp-c-ciano-light);
+  --vp-button-brand-active-text: var(--vp-c-preto);
+  
+  /* Links para o modo escuro */
+  --vp-c-brand-1: var(--vp-c-ciano-light);
+  --vp-c-brand-2: var(--vp-c-ciano);
+  --vp-c-brand-3: var(--vp-c-ciano-dark);
+}
+
+  /* Botões */
+  --vp-button-brand-bg: var(--vp-c-ciano);
+  --vp-button-brand-border: var(--vp-c-ciano-dark);
+  --vp-button-brand-text: white;
+  --vp-button-brand-hover-bg: var(--vp-c-ciano-dark);
+  --vp-button-brand-hover-border: var(--vp-c-ciano-darker);
+  --vp-button-brand-hover-text: white;
+  --vp-button-brand-active-bg: var(--vp-c-ciano-darker);
+  --vp-button-brand-active-border: var(--vp-c-ciano-darker);
+  --vp-button-brand-active-text: white;
+}
+
+/* Estilos para links */
+:root {
+  --vp-c-brand-1: var(--vp-c-ciano);
+  --vp-c-brand-2: var(--vp-c-ciano-dark);
+  --vp-c-brand-3: var(--vp-c-ciano-darker);
+}
+
+/* Estilizações adicionais para a home page */
+.VPHomeHero .name {
+  color: var(--vp-c-preto);
+}
+
+.VPHomeHero .text {
+  color: var(--vp-c-ciano);
+}
+
+.VPHomeHero .tagline {
+  color: var(--vp-c-text-2);
+}
+
+/* Estilização para os cards de recursos na home page */
+.VPFeature {
+  border: 1px solid #dcdcda;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.VPFeature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 167, 225, 0.1);
+  border-color: var(--vp-c-ciano-light);
+}
+
+.VPFeature .icon {
+  font-size: 24px;
+}
+
+.VPFeature .title {
+  color: var(--vp-c-preto);
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.VPFeature .details {
+  color: var(--vp-c-text-2);
+}
