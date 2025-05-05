@@ -41,7 +41,14 @@ export default defineConfig({
           { text: 'Espaços Culturais', link: '/espacos-culturais' },
           { text: 'Eventos', link: '/eventos' },
           { text: 'Projetos', link: '/projetos' },
-          { text: 'Oportunidades', link: '/oportunidades' },
+          {
+            text: 'Oportunidades',
+            items: [
+              { text: 'Geral', link: '/oportunidades' },
+              { text: 'PNAB', link: '/oportunidade-pnab' }
+            ]
+          },
+          { text: 'Painel de controle', link: '/painel-de-controle' },
         ],
       },
       {

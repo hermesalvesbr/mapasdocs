@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Espaços Culturais 222
+# Espaços Culturais
 
 Os Espaços Culturais são locais físicos onde acontecem atividades culturais. No Mapa Cultural, é possível cadastrar, visualizar e gerenciar diversos tipos de espaços.
 
