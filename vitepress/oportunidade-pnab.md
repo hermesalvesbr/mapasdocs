@@ -266,14 +266,14 @@ A criação de um único projeto já é suficiente para a criação de uma oport
 Com o projeto criado, é hora de desenvolver a oportunidade. Utilizaremos o **PNAB 2025**, ano vigente em que o projeto atuará.
 
 ![Lista de oportunidades no Mapa Cultural](/public/images/oportunidades/Lista_de_oportunidades.png)
-<p style="text-align: center;"><em>Figura 13: Página de oportunidades do Mapa Cultural.</em></p>
+<p style="text-align: center;"><em>Figura 18: Página de oportunidades do Mapa Cultural.</em></p>
 
 > É obrigatório o vínculo de uma oportunidade com outra entidade, que pode ser um projeto, evento, agente ou outra oportunidade.
 
 ### Criação inicial da oportunidade
 
 ![Criação de uma oportunidades no Mapa Cultural](/public/images/oportunidades/Lista_de_oportunidades_criar_oportunidade_padrao.png)
-<p style="text-align: center;"><em>Figura 14: Popup que aparece ao apertar em <code>+Criar oportunidade</code> na página de oportunidades do Mapa Cultural.</em></p>
+<p style="text-align: center;"><em>Figura 19: Popup que aparece ao apertar em <code>+Criar oportunidade</code> na página de oportunidades do Mapa Cultural.</em></p>
 
 1. Menu superior > Oportunidades > **+ Criar oportunidade**;
 2. Preencha os campos principais:
@@ -283,7 +283,7 @@ Com o projeto criado, é hora de desenvolver a oportunidade. Utilizaremos o **PN
     - **Vinculação a uma entidade**: Selecionar o projeto criado anteriormente;
 
 ![Criação de uma oportunidades no Mapa Cultural com os dados preenchidos](/public/images/oportunidades/Lista_de_oportunidades_criar_oportunidade_preenchida.png)
-<p style="text-align: center;"><em>Figura 15: Popup com as informações obrigatórias para criação de uma oportunidade, preenchidas na página de oportunidades do Mapa Cultural.</em></p>
+<p style="text-align: center;"><em>Figura 20: Popup com as informações obrigatórias para criação de uma oportunidade, preenchidas na página de oportunidades do Mapa Cultural.</em></p>
 
 Ao finalizar a criação de uma oportunidade, ela fica em rascunho, visível somente ao seu criador. Recomenda-se que você abra a página da oportunidade e conclua toda a configuração para que sua publicação seja feita.
 
